@@ -44,19 +44,46 @@
   <section class="card">
     <h3>Projects</h3>
 
-    <h4>1. End-to-End MLOps Pipeline – Iris Dataset</h4>
+    <h4>1. Config-Driven MLOps Pipeline – Iris Dataset</h4>
     <p>
-      Built a complete MLOps pipeline using the Iris dataset to demonstrate
-      model training, versioning, CI/CD automation, and containerized inference
-      using only free tools.
+      Designed and implemented an end-to-end MLOps pipeline where multiple machine
+      learning models can be trained, validated, and packaged for inference using
+      a single reusable pipeline.
     </p>
-    <ul>
-      <li>Automated training & validation using GitHub Actions</li>
-      <li>Dockerized inference service</li>
-      <li>CI/CD-driven deployments</li>
-      <li>Focus on reproducibility and reliability</li>
-    </ul>
 
+     <p>
+     The pipeline is configuration-driven, allowing data scientists to train
+     different models by modifying a YAML file without changing code.
+     </p>
+
+     <ul>
+        <li>Single pipeline supports multiple ML models (Logistic Regression, Random Forest, SVM)</li>
+        <li>Quality gates enforce minimum model accuracy during CI</li>
+   	<li>Automated training and testing using GitHub Actions</li>
+  	<li>Model artifacts are versioned and ready for inference</li>
+  	<li>Fully implemented using free and open-source tools</li>
+     </ul>
+
+	<p>
+	<b>MLOps Concepts:</b> CI/CD for ML, model validation gates, config-driven pipelines,
+	reproducibility, automation
+	</p>
+
+	<p>
+	<b>Tech Stack:</b> Python, scikit-learn, GitHub Actions, YAML, Docker-ready design
+	</p>
+
+	<p>
+	<b>Repository:</b>
+	<a href="https://github.com/tushartiwari03/iris-mlops-pipeline" target="_blank">
+	github.com/YOUR_GITHUB/iris-mlops-pipeline
+	</a>
+	<p>
+  	<img src="https://github.com/tushartiwari03/iris-mlops-pipeline/actions/workflows/ci.yml/badge.svg"
+       	alt="Iris MLOps CI Status">
+	</p>
+	
+	</p>
     <h4>2. Computer Vision MLOps Pipeline – YOLO</h4>
     <p>
       Designed a lightweight deployment-ready MLOps workflow for object detection
@@ -86,7 +113,7 @@
   <section class="card">
     <h3>Contact</h3>
     <p>
-      GitHub: <a href="https://github.com/YOUR_GITHUB" target="_blank">github.com/YOUR_GITHUB</a>
+      GitHub: <a href="https://github.com/tushartiwari03" target="_blank">github.com/tushartiwari03</a>
     </p>
   </section>
 
